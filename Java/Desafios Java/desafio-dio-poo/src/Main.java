@@ -40,6 +40,8 @@ public class Main {
         System.out.println("Conteúdos inscritos " + devThiago.getConteudoInscritos());
         devThiago.progredir();
         devThiago.progredir();
+        devThiago.progredir();
+        devThiago.progredir();
         System.out.println("Conteúdos inscritos" + devThiago.getConteudoInscritos());
         System.out.println("Conteúdos Concluidos" + devThiago.getConteudoConcluidos());
         System.out.println("XP: "+ devThiago.calcularTotalXp());
