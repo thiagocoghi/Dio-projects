@@ -2,10 +2,10 @@ class aulaListas {
 
     class Gato{
         private String nome;
-        private inteliger idade;
+        private int idade;
         private String cor;sd
 
-        public Gato(String nome, inteliger idade, String cor) {
+        public Gato(String nome, int idade, String cor) {
             this.nome = nome;
             this.idade = idade;
             this.cor = cor;
@@ -15,7 +15,7 @@ class aulaListas {
             return nome;
         }
 
-        public inteliger getIdade() {
+        public int getIdade() {
             return idade;
         }
 

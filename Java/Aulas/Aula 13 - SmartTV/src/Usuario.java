@@ -20,6 +20,7 @@ public class Usuario {
         System.out.println("Novo status: Tv Ligada?"+ smartTv.ligada);
 
         smartTv.desligar();
-        System.out.println("Novo status: Tv Ligada?"+ smartTv.ligada);
+
+       System.out.println("Novo status: Tv Ligada?"+ smartTv.ligada);
     }
 }
