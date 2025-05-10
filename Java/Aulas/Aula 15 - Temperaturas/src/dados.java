@@ -25,6 +25,7 @@ public class dados {
         System.out.println("A média das temperaturas é: " + media );
 
         Iterator<Double> iterator1 = temperatura.iterator();
+        
         int count = 0; // exibe os meses que estão acima da média
         while (iterator1.hasNext()){
             Double temp = iterator1.next();
